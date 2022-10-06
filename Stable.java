@@ -2,9 +2,9 @@
 
 import java.util.ArrayList;
 
-public class Stable
+ class Stable
 {
-    public String address;
-    public ArrayList<Horse> arrayList = new ArrayList<>();
+     String address;
+     ArrayList<Horse> arrayList = new ArrayList<>();
 
 }
