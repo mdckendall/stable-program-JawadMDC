@@ -1,9 +1,9 @@
 //Create the Horse class here.
 
 public class Horse {
-    String name_horse;
-    double weight_horse;
-    boolean tame_horse;
+    public String name_horse;
+    public double weight_horse;
+    public boolean tame_horse;
 
 public Horse(String name_horse, double weight_horse, boolean tame_horse)
   {
@@ -13,4 +13,13 @@ public Horse(String name_horse, double weight_horse, boolean tame_horse)
     
   }
   
+   public String getName(){
+        return this.name_horse;
+    }
+    public double getWeight(){
+        return this.weight_horse;
+    }
+    public boolean getTame(){
+        return this.tame_horse;
+    }
 }
