@@ -29,8 +29,8 @@ class Main {
 		//Display the info here
                 //You code here!
 	  		int c = 1;
-			for(Horse horse: s.horse){
-				System.out.println("Horse #"+ c + " Name: " + horse.getName() + " Weight: " + horse.getWeight() + " Tame: " + horse.getTame());
+			for(Horse horse: s.arrayList){
+				System.out.println("Horse #"+ c + " Name: " + arrayList.getName() + " Weight: " + arrayList.getWeight() + " Tame: " + arrayList.getTame());
 				   c++;
     	  }
      }
