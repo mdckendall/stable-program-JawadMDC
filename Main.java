@@ -30,7 +30,7 @@ class Main {
                 //You code here!
 	  		int c = 1;
 			for(Horse horse: s.arrayList){
-				System.out.println("Horse #"+ c + " Name: " + arrayList.getName() + " Weight: " + arrayList.getWeight() + " Tame: " + arrayList.getTame());
+				System.out.println("Horse #"+ c + " Name: " + s.arrayList.getName() + " Weight: " + s.arrayList.getWeight() + " Tame: " + s.arrayList.getTame());
 				   c++;
     	  }
      }
