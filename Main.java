@@ -28,11 +28,9 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
-		int c = 1;
-	  for (Horse horse: s.horse)
+	  for (int c = 0; c < s.arrayList.size(); c++)
 	  {
 	       System.out.println("Horse #" + c + " Name: " + horse.getName() + " Weight: " + horse.getWeight() + " Tame: " + horse.getTame());
-	       c++;
     	  }
      }
 }
