@@ -5,6 +5,6 @@ import java.util.ArrayList;
 public class Stable
 {
     public String address;
-    ArrayList<Horse> arrayList = new ArrayList<>();
+    public ArrayList<Horse> arrayList = new ArrayList<>();
 
 }
