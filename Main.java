@@ -28,11 +28,11 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
-		int h = 1;
+		int c = 1;
 	  for (Horse horse: s.horse)
 	  {
 	       System.out.println("Horse #" + c + " Name: " + horse.getName() + " Weight: " + horse.getWeight() + " Tame: " + horse.getTame());
-	       h++;
+	       c++;
     	  }
      }
 }
