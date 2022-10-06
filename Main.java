@@ -28,6 +28,14 @@ class Main {
 		}while(true);
 		//Display the info here
                 //You code here!
+	  for (int i = 0; i < h.arrayList.size(); i++)
+	  {
+      	       int c = i + 1;
+	       System.out.println("Horse #" + c + " Name: " + horse.getName() + " Weight: " + horse.getWeight() + " Tame: " + horse.getTame());
+    	  }
+     }
+}
+
 	  }
   }
 }
